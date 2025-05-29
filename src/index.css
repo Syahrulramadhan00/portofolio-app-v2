@@ -1,0 +1,26 @@
+/* app.css or your main CSS file */
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-anton: 'Anton', ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #577DE0;
+  --color-light: #F0F3FC;
+  --color-shuttle:#67686A;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    font-weight: 600; 
+    background-color: black;
+    color: var(--color-light)
+  }
+  .font-anton {
+    font-weight: 400; 
+  }
+
+
+}
+
