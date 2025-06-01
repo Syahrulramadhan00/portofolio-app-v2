@@ -8,9 +8,9 @@ export const PointyFrame = ({ direction = 'left' }) => {
   const justifyClass = direction === 'left' ? 'justify-end' : 'justify-start';
   return (
     <div>
-      <div className={`w-70 h-25 border border-primary flex items-center ${justifyClass} ${roundedClasses}`}>
-        <div className={`w-60 h-25 border border-primary flex items-center ${justifyClass} ${roundedClasses}`}>
-          <div className={`w-52 h-25 border border-primary flex items-center ${justifyClass} overflow-hidden ${roundedClasses}`}>
+      <div className={`w-75 h-35 border border-primary flex items-center ${justifyClass} ${roundedClasses}`}>
+        <div className={`w-65 h-35 border border-primary flex items-center ${justifyClass} ${roundedClasses}`}>
+          <div className={`w-52 h-35 border border-primary flex items-center ${justifyClass} overflow-hidden ${roundedClasses}`}>
             <img
               src="https://placehold.co/600x400"
               alt="Content"

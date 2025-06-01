@@ -11,15 +11,24 @@
 }
 
 @layer base {
+
   html {
     font-family: var(--font-sans);
     font-weight: 600; 
     background-color: black;
     color: var(--color-light)
   }
+  .body{
+    scroll-behavior: smooth;
+  }
   .font-anton {
     font-weight: 400; 
   }
+
+  #about {
+  scroll-margin-top: -24px;
+  }
+
 
 
 }

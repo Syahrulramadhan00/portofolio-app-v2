@@ -1,7 +1,7 @@
 
 
 export const NorthStar = () => {
-  const lineLength = 'w-8';
+  const lineLength = 'w-10';
   const lineThickness = 'h-[2px]';
   const lineColor = 'bg-primary'; 
   const rotationDegrees = [0, 45, 90, 135, 180, 225, 270, 315];

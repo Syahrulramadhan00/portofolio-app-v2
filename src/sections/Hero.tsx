@@ -3,8 +3,8 @@ import { PhotoFrame } from "../components/PhotoFrame"
 
 export const Hero = () => {
   return (
-    <div className="flex flex-row justify-between items-center"> 
-      <div>
+    <div className="flex flex-row justify-between items-center mx-24"> 
+      <div className="my-16">
         <div className="font-anton text-9xl">
         <h1>SYAHRUL RAMADHAN</h1>
         <h1 className="text-primary">YOUR DEVELOPER</h1>
@@ -15,7 +15,7 @@ export const Hero = () => {
         </div>
         <div className="flex flex-row justify-start items-center pt-10 space-x-20">
             <HireButton />
-            <p>Hi, I am Syahrul Ramadhan your most wanted<br/> creative deveoper, welcome to my <br /> personal portofilio</p>
+            <p>Hi, I am Syahrul Ramadhan your most wanted<br/> creative deveoper, welcome to my <br /> personal portofolio</p>
         </div>
       </div>
       <div className="mt-6">
