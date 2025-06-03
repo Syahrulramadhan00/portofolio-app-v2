@@ -6,7 +6,7 @@ import { NorthStar } from '../icons/NorthStar'
 export const About = () => {
   return (
     <div className='border-t-2 border-shuttle py-12 mx-24' id='about'>
-            <h1 className='font-anton text-shuttle text-5xl'>About</h1>
+            <h1 className='font-anton text-shuttle text-5xl'>ABOUT</h1>
             <div className='flex flex-row justify-between items-center mt-12'>
                 <div className='flex flex-col space-y-12'>
                     <div className='font-anton text-8xl'>
