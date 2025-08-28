@@ -39,7 +39,7 @@ const currentYear: number = new Date().getFullYear();
                 LINKEDIN
               </FooterLink>
               {/* Add the correct path to your CV file here */}
-              <FooterLink href="/syahrul-ramadhan-cv.pdf">
+              <FooterLink href="https://drive.google.com/drive/folders/1A08dNCjMTID0ate5WnueMB8eHtHf5yW0">
                 CURRICULUM VITAE
               </FooterLink>
               <FooterLink href="https://github.com/Syahrulramadhan00">
