@@ -48,12 +48,12 @@ export const About: React.FC<AboutProps> = ({ setNavbarBg }) => {
                 </div>
                     <div className='flex flex-col justify-center items-center space-y-12 md:space-y-24 mt-12 md:mt-0'>
                         <div className='flex flex-col md:flex-row space-y-12 md:space-y-0 md:space-x-12'>
-                            <PointyFrame direction='left'/>
+                            <PointyFrame srcImg='/img/project1.jpeg' direction='left'/>
                             <FrameCard />
                         </div>
                         <div className='flex flex-col md:flex-row justify-center items-center space-y-12 md:space-y-0 md:space-x-12'>
                             <NorthStar />
-                            <PointyFrame direction='right'/>
+                            <PointyFrame srcImg='/img/project2.png' direction='right'/>
                         </div>
                     </div>
             </div>

@@ -1,5 +1,6 @@
 // src/components/ProjectCard.tsx
 
+import { HireButton } from "./HireButton";
 import { ProjectFrame } from "./ProjectFrame";
 
 interface ProjectCardProps {
@@ -8,9 +9,10 @@ interface ProjectCardProps {
   techStack: string[];
   imageUrl: string;
   projectDesc: string;
+  linkProject: string;
 }
 
-export const ProjectCard = ({ direction, projectName, techStack, imageUrl, projectDesc }: ProjectCardProps) => {
+export const ProjectCard = ({ direction, projectName, techStack, imageUrl, projectDesc, linkProject }: ProjectCardProps) => {
   const isLeft = direction === 'left';
 
   return (
@@ -19,7 +21,7 @@ export const ProjectCard = ({ direction, projectName, techStack, imageUrl, proje
       
       {/* Image Container: Takes full width on small screens, half on large */}
       <div className="w-full lg:w-1/2">
-        <ProjectFrame direction={direction} imgUrl={imageUrl} width="w-full" height="h-80 md:h-110" />
+        <ProjectFrame direction={direction} imageUrl={imageUrl} width="w-full" height="h-80 md:h-110" />
       </div>
 
       {/* Text Content Container: Takes full width on small screens, half on large */}
@@ -30,9 +32,10 @@ export const ProjectCard = ({ direction, projectName, techStack, imageUrl, proje
             <span key={index}>{tech}</span>
           ))}
         </div>
-        <p className="text-sm text-shuttle mt-4">
+        <p className="text-sm text-shuttle mt-4 pb-5">
           {projectDesc}
         </p>
+        <HireButton link={linkProject} text="Visit Project" />
       </div>
       
     </div>

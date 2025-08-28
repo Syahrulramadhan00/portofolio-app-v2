@@ -44,7 +44,7 @@ export const Services: React.FC<ServicesProps> = ({ setNavbarBg }) => {
       <img
         src="/LineV3.svg"
         alt="Decorative Line"
-        className="absolute object-cover z-30 hidden md:block"
+        className="absolute object-cover z-0 hidden md:block"
         style={{
           width: '800px',
           right: 'calc(100% - 28rem)',

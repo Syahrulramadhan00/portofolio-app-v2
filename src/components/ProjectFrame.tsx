@@ -3,6 +3,7 @@ export const ProjectFrame = ({
   direction = 'left',
   width = 'w-80',
   height = 'h-100',
+  imageUrl =""
 }) => {
   const borderClasses =
     direction === 'left'
@@ -14,7 +15,7 @@ export const ProjectFrame = ({
       className={`${width} ${height} ${borderClasses} border border-primary flex items-center justify-center overflow-hidden`}
     >
             <img
-              src="https://placehold.co/600x400"
+              src={imageUrl}
               alt="Content"
               className="w-full h-full object-cover" 
             />

@@ -1,5 +1,5 @@
 
-export const PointyFrame = ({ direction = 'left' }) => {
+export const PointyFrame = ({ direction = 'left', srcImg = 'https://placehold.co/600x400' }) => {
 
   const roundedClasses = direction === 'left'
     ? 'rounded-tl-full rounded-bl-full' 
@@ -12,7 +12,7 @@ export const PointyFrame = ({ direction = 'left' }) => {
         <div className={`w-65 h-35 border border-primary flex items-center ${justifyClass} ${roundedClasses}`}>
           <div className={`w-52 h-35 border border-primary flex items-center ${justifyClass} overflow-hidden ${roundedClasses}`}>
             <img
-              src="https://placehold.co/600x400"
+              src={srcImg}
               alt="Content"
               className="w-full h-full object-cover" 
             />

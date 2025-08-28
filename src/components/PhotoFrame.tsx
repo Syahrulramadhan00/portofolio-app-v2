@@ -4,8 +4,8 @@ export const PhotoFrame = () => {
         <div className="w-65 h-110 rounded-full border border-primary flex items-center justify-center">
           <div className="w-65 h-82 rounded-full border border-primary">
             <div className="w-65 h-68 rounded-full">
-                <div className="relative w-full h-68 rounded-t-full top-6 overflow-hidden">
-                    <img src="https://placehold.co/600x400" alt="" className="w-full h-full object-cover" />
+                <div className="flex w-full h-full rounded-t-full bg-gradient-to-br from-gray-800 via-gray-400 to-white">
+                    <img src="/img/profile2.png" alt="" className="w-full h-full object-cover" />
                 </div>
             </div>
           </div>

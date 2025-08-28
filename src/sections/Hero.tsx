@@ -41,7 +41,7 @@ export const Hero: React.FC<HeroProps> = ({ setNavbarBg }) => {
         </div>
         <div className="flex flex-col md:flex-row justify-center md:justify-start items-center pt-10 space-y-8 md:space-y-0 md:space-x-20">
             <HireButton />
-            <p>Hi, I am Syahrul Ramadhan your most wanted<br/> creative deveoper, welcome to my <br /> personal portofolio</p>
+            <p>Hi, I am Syahrul Ramadhan your most wanted<br/> creative developer, welcome to my <br /> personal portofolio</p>
         </div>
       </div>
       <div className="mt-6 md:mt-0">
