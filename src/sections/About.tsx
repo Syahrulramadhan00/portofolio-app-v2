@@ -28,7 +28,7 @@ export const About: React.FC<AboutProps> = ({ setNavbarBg }) => {
       id='about'
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.5 }}
+      viewport={{ once: true, amount: 0.2 }}
       transition={{ type: "spring", stiffness: 100, damping: 10, ease: "easeOut" }}
     >
             <h1 className='font-anton text-shuttle text-5xl'>ABOUT</h1>
@@ -58,5 +58,6 @@ export const About: React.FC<AboutProps> = ({ setNavbarBg }) => {
                     </div>
             </div>
     </motion.div>
+
   )
 }

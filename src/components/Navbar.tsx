@@ -5,6 +5,7 @@ import { Sling as Hamburger } from 'hamburger-react';
 // Define navigation links in one place
 const navLinks = [
   { to: 'about', label: 'ABOUT' },
+  { to: 'career', label: 'CAREER' },
   { to: 'projects', label: 'PROJECTS' },
   { to: 'services', label: 'SERVICES' },
 ];

@@ -7,6 +7,7 @@ import { Hero } from "./sections/Hero"
 import { Overview } from "./sections/Overview"
 import { Project } from "./sections/Project"
 import { Services } from "./sections/Services"
+import Career from "./sections/Career";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <div className="space-y-24">
         <Hero setNavbarBg={setNavbarBg} /> 
         <About setNavbarBg={setNavbarBg}  />
+        <Career setNavbarBg={setNavbarBg}/> 
         <Project setNavbarBg={setNavbarBg} /> 
         <Services setNavbarBg={setNavbarBg} />
         <Overview setNavbarBg={setNavbarBg} />

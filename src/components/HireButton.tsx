@@ -1,5 +1,5 @@
 
-export const HireButton = ({link = "https://wa.me/6281234567890", text="HIRE ME NOW"}) => {
+export const HireButton = ({link = "https://wa.me/628986367472", text="HIRE ME NOW"}) => {
   return (
     <div>
         <a href={link} target="_blank" className="h-full" rel="noopener noreferrer">

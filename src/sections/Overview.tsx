@@ -35,8 +35,8 @@ export const Overview: React.FC<OverviewProps> = ({ setNavbarBg }) => {
                 <p>When you're defying expectations, data grounds you. These aren't just figures, but a testament to the unexpected power of combining code-driven precision with a dash of design audacity. each project that have done proving ground for crafting robust frontend architectures while simultaneously embracing intuitive UI/UX principles. And those rework customers? They're living proof of the value in iterative refinement and a keen eye for both functionality and user delight. Turns out, a developer's systematic approach, applied to design problems, can yield some surprisingly elegant solutions. Who knew?</p>
                 <div className="flex flex-col md:flex-row justify-between items-center mt-4 space-y-8 md:space-y-0 md:space-x-2">
                     <CareersStats years="10" desc="Projects completed" />
-                    <CareersStats years="5" desc="Rework customers" />
-                    <CareersStats years="1" desc="Years experience" />
+                    <CareersStats years="7" desc="Rework customers" />
+                    <CareersStats years="2" desc="Years experience" />
                 </div>
             </div>
         </div>

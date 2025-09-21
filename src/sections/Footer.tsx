@@ -35,7 +35,7 @@ const currentYear: number = new Date().getFullYear();
                 INSTAGRAM
               </FooterLink>
               {/* Corrected the LinkedIn URL from the Instagram one */}
-              <FooterLink href="https://www.linkedin.com/in/syahrul-ramadhan-a76243238/">
+              <FooterLink href="https://www.linkedin.com/in/m-syahrul-ramadhan00/">
                 LINKEDIN
               </FooterLink>
               {/* Add the correct path to your CV file here */}
@@ -48,8 +48,11 @@ const currentYear: number = new Date().getFullYear();
                 </div>
             </div>
             <div className="flex flex-col md:flex-row justify-between my-5 text-xl font-anton text-shuttle">
-                <div>
-                    <p>{currentYear}</p>
+                <div className="flex flex-row space-x-1">
+                    <p>{currentYear} Design by </p>
+                <a href="https://dribbble.com/shots/18529579-DIVO-Creative-Developer-Landing-Page" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors duration-300">
+                  <p>Aryo Pamungkas SLAB Design Studio</p>
+                </a>
                 </div>
                 <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-4 md:mt-0"> 
                     <a href="mailto:sahrulramadhan684@gmail.com" className="hover:text-primary transition-colors duration-300">
