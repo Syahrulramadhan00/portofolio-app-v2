@@ -24,11 +24,11 @@ linkProject: "https://muatmuat.com"
 },
  {
 direction: "right" as const,
- projectName: "Cahaya Teknik",
- techStack: ["Go", "Nuxt Js", "TailwindCSS"],
- imageUrl: "/img/cahaya-teknik.png",
- projectDesc: "As a full-stack developer for my final project, I built a comprehensive management system for Cahaya Teknik, a building materials supplier. The system was designed to streamline their core business operations, and I was responsible for both the back-end and front-end development.",
- linkProject:"https://github.com/Syahrulramadhan00/ct-frontend-web"
+ projectName: "Rasacode",
+ techStack: ["Svelte", "Svelte Kit", "TailwindCSS"],
+ imageUrl: "/img/rasacode.png",
+ projectDesc: "Rasacode is a company that provides IT services. I was responsible for developing key features for their internal dashboard. My main contributions involved building the analytics and driver management systems used by both the transporter and customer service teams.",
+ linkProject:"https://rasacode-company-app-87vzu.ondigitalocean.app"
  },
 {
  direction: "left" as const,
