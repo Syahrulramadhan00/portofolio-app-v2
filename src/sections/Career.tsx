@@ -30,11 +30,11 @@ const careerData: CareerStep[] = [
     description: 'Developed diserasi.com, a social platform that matches people based on similar tastes. Initiated and built the first version of the front-end, laying the foundational codebase.',
     },
     {
-    status: 'current',
+    status: 'completed',
     role: 'Frontend Developer',
     company: 'Muat Muat',
     imageUrl: 'https://muatmuat.com/blog/wp-content/uploads/2024/03/logo.svg',
-    duration: 'Jul 2025 - Present',
+    duration: 'Jul 2025 - December 2025',
     description: 'Developing key features for Muatrans, a heavy goods logistics platform. Main contributions involve building analytics and driver management systems for transporter and customer service teams.',
     },
 ];

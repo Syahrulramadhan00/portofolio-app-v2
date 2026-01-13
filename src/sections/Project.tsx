@@ -7,6 +7,14 @@ import { motion } from 'framer-motion';
 
 const projects = [
 {
+direction: "right" as const,
+projectName: "Muatpartsplus",
+techStack: ["Zustand", "Next Js", "TailwindCSS"],
+imageUrl: "/img/muatpartplus.png",
+projectDesc: "For Muatrans, a heavy goods logistics platform, I was responsible for developing key features for their internal dashboard. My main contributions involved building the analytics and driver management systems used by both the transporter and customer service teams.",
+linkProject: "https://muatmuat.com/muatpartsplusglobal/home"
+},
+{
 direction: "left" as const,
 projectName: "Muatrans",
 techStack: ["Zustand", "Next Js", "TailwindCSS"],
@@ -32,11 +40,11 @@ linkProject: "https://www.diserasi.com/"
 },
 {
  direction: "right" as const,
-projectName: "Gisact",
-techStack: ["Next Js", "Mapbox", "TailwindCSS"],
-imageUrl: "/img/gisact.png",
-projectDesc: "This project was a technical selection test for Gisact, a geospatial data provider. I developed a proof-of-concept application to consume and visualize their geospatial data, successfully demonstrating proficiency in mapping and tracking functionalities using their API.",
-linkProject: "https://github.com/Syahrulramadhan00/gisact-geospasial-app"
+projectName: "E-commerce Platform",
+techStack: ["Nuxt", "Vue", "TailwindCSS"],
+imageUrl: "/img/eccomerce.png",
+projectDesc: "A full-stack e-commerce template developed as a freelance project. The platform features a complete product catalog with category filtering, shopping cart functionality, user authentication, and a streamlined checkout process. Built with Nuxt.js and Vue 3, it demonstrates modern e-commerce best practices including responsive design, state management, and API integration.",
+linkProject: "https://commerce-app-m9i2g.ondigitalocean.app"
 },
 ];
 
