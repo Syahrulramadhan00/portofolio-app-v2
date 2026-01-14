@@ -54,8 +54,9 @@ interface ProjectProps {
 
 export const Project: React.FC<ProjectProps> = ({ setNavbarBg }) => {
   const { ref, inView } = useInView({
-    threshold: 0.2, // Lower threshold since the section is long
+    threshold: 0.1, // Lower threshold since the section is long
   });
+
 
   useEffect(() => {
     if (inView) {
@@ -70,7 +71,7 @@ export const Project: React.FC<ProjectProps> = ({ setNavbarBg }) => {
       id="projects"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }} 
+      viewport={{ once: true, amount: 0.1 }} 
       transition={{ type: "spring", stiffness: 100, damping: 10, ease: "easeOut" }}
     >
       <div className='mx-8 md:mx-24 border-t-2 border-shuttle py-12 relative'>
