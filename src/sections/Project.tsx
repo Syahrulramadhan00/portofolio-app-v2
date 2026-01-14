@@ -20,7 +20,7 @@ projectName: "Muatrans",
 techStack: ["Zustand", "Next Js", "TailwindCSS"],
 imageUrl: "/img/muatrans.png",
 projectDesc: "For Muatrans, a heavy goods logistics platform, I was responsible for developing key features for their internal dashboard. My main contributions involved building the analytics and driver management systems used by both the transporter and customer service teams.",
-linkProject: "https://muatmuat.com"
+linkProject: "https://trans.muatmuat.com"
 },
  {
 direction: "right" as const,

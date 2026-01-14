@@ -7,8 +7,8 @@ export const ProjectFrame = ({
 }) => {
   const borderClasses =
     direction === 'left'
-      ? 'rounded-r-full rounded-tl-full'
-      : 'rounded-l-full rounded-tr-full';
+      ? 'rounded-3xl lg:rounded-none lg:rounded-r-full lg:rounded-tl-full'
+      : 'rounded-3xl lg:rounded-none lg:rounded-l-full lg:rounded-tr-full';
 
   return (
     <div
